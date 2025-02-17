@@ -396,7 +396,7 @@ if(!isset($_SESSION['email'])) {
                                 <div class="img_play">
                                     
                                 <img src="images/milli.jpg" alt="">
-                                <i class="bi ListPlay bi-play-circle-fill" id="" onclick="glory()"></i>
+                                <i class="bi ListPlay bi-play-circle-fill" id="" "></i>
                                 
                                 </div>
                                 <div class="h6">
