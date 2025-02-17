@@ -1,0 +1,179 @@
+    *{
+        padding: 0;
+        margin: 0;
+    }
+    body{
+        background-color: rgb(20, 19, 19);
+    }
+    .header {
+        width: 100vw;
+        height: 50px;
+        border: 2px solid purple;
+        display: flex;
+        align-items: center;
+        justify-content: space-between; 
+        background-color: rgb(42, 213, 159);
+        position: fixed; 
+        top: 0;
+        left: 0;
+        padding: 0 20px; 
+        color: white;
+        z-index: 1000; 
+    }
+
+    .header .left{
+        padding: 15px;
+        color: purple;
+        font-size: 25px;
+        align-items: flex-start;
+        justify-content: center;
+        cursor: pointer;
+    }
+    .header .left a{
+        text-decoration: none;
+    }
+    .header .left a:hover{
+        text-decoration: underline;
+    }
+    .maincontent{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .maincontent .sidebar {
+        width: 15%;
+        height: 99.7vh;
+        border: 1px solid black;
+        background-color: #5A4FCF;
+        margin-right: 2px;
+    }
+    .maincontent .album{
+        width: 85%;
+        height: 99.9vh;
+        background-color: #40424d;
+        overflow: auto;
+    }
+    .maincontent .album::-webkit-scrollbar{
+        display: none;
+    }
+    .maincontent .album .dispc{
+        display: flex;
+        align-items: center;
+        margin-top: 50px;
+        margin-left: 50px;
+        margin-bottom: 10px;
+    }
+    .maincontent .album .dispc .image{
+        margin-right: -275px;
+    }
+    .maincontent .album .dispc .image img{
+        margin-top: 20px;
+        width: 40%;
+        border-radius: 35px;
+    }
+    .maincontent .album .dispc .play button{
+        width: 150px;
+        height: 40px;
+        border-radius: 30px;
+        cursor: pointer;
+        background-color: turquoise;
+        font-size: 15px;
+        margin-right: 10px;
+    }
+    .maincontent .album .dispc .play button:hover{
+        background-color: rgb(89, 218, 89);
+    }
+    .album .line{
+        width: 90%;
+        height: auto;
+        margin-left: 50px;
+        border: 1px solid white;
+    }
+    .album .play h1{
+        color: white;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 40px;
+    }
+    .album .play #al{
+        color: black;
+    }
+    .album .play h4{
+        color: wheat;
+        margin-top: 10px;
+        margin-left: 35px;
+        cursor: pointer;
+    }
+    /* Tracklist Styling */
+.tracklist {
+    width: 90%;
+    margin: 30px auto;
+    color: grey;
+}
+/* Reset table row styling */
+.tracklist tbody tr {
+    display: table-row; /* Ensures the table behaves normally */
+    transition: background 0.3s ease-in-out;
+}
+
+.tracklist tbody tr:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    cursor: pointer;
+}
+
+/* Add a container around duration for better positioning */
+.tracklist tbody td {
+    position: relative;
+    padding: 10px 15px;
+}
+
+/* Initially hide the plus icon */
+.tracklist tbody tr .add-icon {
+    position: absolute;
+    left: -25px; /* Adjust position to appear before the duration */
+    display: none;
+    font-size: 18px;
+}
+
+/* Show plus icon on hover */
+.tracklist tbody tr:hover .add-icon {
+    display: inline;
+}
+
+
+.tracklist table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 18px;
+}
+
+.tracklist th, .tracklist td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid white;
+}
+
+.tracklist th {
+    font-size: 20px;
+}
+
+.tracklist tbody tr:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    color: aliceblue;
+    cursor: pointer;
+}
+.tracklist tbody tr .bi {
+    display: none;
+    margin-right: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    color: white;
+    transition: 0.3s linear;
+}
+.tracklist tbody tr:hover .bi {
+    display: inline;
+    color: white;
+}
+.tracklist tbody tr .bi:hover{
+    color: black;
+    cursor: pointer;
+}
