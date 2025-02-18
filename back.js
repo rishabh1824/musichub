@@ -5,56 +5,56 @@
             id:1,
             songName: `Tum Hi Ho <br> 
                                 <div class="subtitle">Arijit Singh</div>`,
-            poster: "images/01.jpg"
+            poster: "images/1.jpg"
         },
         {
             id:2,
             songName: `Chikni Chameli
                                 <br> 
                                 <div class="subtitle">Shreya Ghoshal</div>`,
-            poster: "images/02.jpg"
+            poster: "images/2.jpg"
         },
         {
             id:3,
             songName: `Alone <br> 
                                 <div class="subtitle">Alan Walker</div>`,
-            poster: "images/03.jpg"
+            poster: "images/3.jpg"
         },
         {
             id:4,
             songName: `Shape of You <br> 
                                 <div class="subtitle">Ed Sheeran</div>`,
-            poster: "images/04.jpg"
+            poster: "images/4.jpg"
         },
         {
             id:5,
             songName: `Millionaire <br> 
             <div class="subtitle">Yo Yo Honey Singh</div>`,
-            poster: "images/05.jpg"
+            poster: "images/5.jpg"
         },
         {
             id:6,
             songName: `O Maahi<br> 
                                 <div class="subtitle">Pritam, Arijit Singh, Irshad Kamil</div>`,
-            poster: "images/06.jpg"
+            poster: "images/6.jpg"
         },
         {
             id:7,
             songName: `Dilliwaali Girlfriend <br> 
                                 <div class="subtitle">Sunidhi Chauhan,Pritam,Arijit Singh</div>`,
-            poster: "images/07.jpg"
+            poster: "images/7.jpg"
         },
         {
             id:8,
             songName: `Chaleya <br> 
                                 <div class="subtitle">Anirudh Ravichander, Arijit Singh, Shilpa Rao</div>`,
-            poster: "images/08.jpg"
+            poster: "images/8.jpg"
         },
         {
             id:9,
             songName: `Sajna Ve Sajna<br> 
                                 <div class="subtitle">Sunidhi Chauhan,Divya Kumar</div>`,
-            poster: "images/09.jpg"
+            poster: "images/9.jpg"
         },
         {
             id:10,
