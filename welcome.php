@@ -28,7 +28,7 @@ if(!isset($_SESSION['email'])) {
             <div class="menu_song">
                     <li class="songItem">
                         <span>01</span>
-                        <img src="images\01.jpg" alt="">
+                        <img src="images\1.jpg" alt="">
                         <h5>Tum Hi Ho <br> 
                             <div class="subtitle">Arijit Singh</div>
                         </h5>
@@ -36,7 +36,7 @@ if(!isset($_SESSION['email'])) {
                     </li>
                     <li class="songItem">
                         <span>02</span>
-                        <img src="images/02.jpg" alt="">
+                        <img src="images/2.jpg" alt="">
                         <h5>
                             Chikni Chameli
                              <br> 
@@ -46,7 +46,7 @@ if(!isset($_SESSION['email'])) {
                     </li>
                     <li class="songItem">
                         <span>03</span>
-                        <img src="images\03.jpg" alt="">
+                        <img src="images\3.jpg" alt="">
                         <h5>Alone <br> 
                             <div class="subtitle">Alan Walker</div>
                         </h5>
@@ -54,7 +54,7 @@ if(!isset($_SESSION['email'])) {
                     </li>
                     <li class="songItem">
                         <span>04</span>
-                        <img src="images\04.jpg" alt="">
+                        <img src="images\4.jpg" alt="">
                         <h5>Shape of You <br> 
                             <div class="subtitle">Ed Sheeran</div>
                         </h5>
@@ -62,7 +62,7 @@ if(!isset($_SESSION['email'])) {
                     </li>
                     <li class="songItem">
                         <span>05</span>
-                        <img src="images\05.jpg" alt="">
+                        <img src="images\5.jpg" alt="">
                         <h5>Millionaire <br> 
                             <div class="subtitle">Yo Yo Honey Singh</div>
                         </h5>
@@ -70,7 +70,7 @@ if(!isset($_SESSION['email'])) {
                     </li>
                     <li class="songItem">
                         <span>06</span>
-                        <img src="images/06.jpg" alt="">
+                        <img src="images/6.jpg" alt="">
                         <h5>O Maahi<br> 
                             <div class="subtitle">Pritam, Arijit Singh, Irshad Kamil</div>
                         </h5>
@@ -78,7 +78,7 @@ if(!isset($_SESSION['email'])) {
                     </li>
                     <li class="songItem">
                         <span>07</span>
-                        <img src="images/07.jpg" alt="">
+                        <img src="images/7.jpg" alt="">
                         <h5>Dilliwaali Girlfriend <br> 
                             <div class="subtitle">Sunidhi Chauhan,Pritam,Arijit Singh</div>
                         </h5>
@@ -86,7 +86,7 @@ if(!isset($_SESSION['email'])) {
                     </li>
                     <li class="songItem">
                         <span>08</span>
-                        <img src="images/08.jpg" alt="">
+                        <img src="images/8.jpg" alt="">
                         <h5>Chaleya <br> 
                             <div class="subtitle">Anirudh Ravichander, Arijit Singh, Shilpa Rao</div>
                         </h5>
@@ -94,7 +94,7 @@ if(!isset($_SESSION['email'])) {
                     </li>
                     <li class="songItem">
                         <span>09</span>
-                        <img src="images/09.jpg" alt="">
+                        <img src="images/9.jpg" alt="">
                         <h5>Sajna Ve Sajna<br> 
                             <div class="subtitle">Sunidhi Chauhan,Divya Kumar</div>
                         </h5>
