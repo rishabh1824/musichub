@@ -1,154 +1,180 @@
 // const music = new Audio('songs/02.mp3');
 // music.play();
-    const songs=[
-        {
-            id:1,
-            songName: `Tum Hi Ho <br> 
-                                <div class="subtitle">Arijit Singh</div>`,
-            poster: "images/1.jpg"
-        },
-        {
-            id:2,
-            songName: `Chikni Chameli
-                                <br> 
-                                <div class="subtitle">Shreya Ghoshal</div>`,
-            poster: "images/2.jpg"
-        },
-        {
-            id:3,
-            songName: `Alone <br> 
-                                <div class="subtitle">Alan Walker</div>`,
-            poster: "images/3.jpg"
-        },
-        {
-            id:4,
-            songName: `Shape of You <br> 
-                                <div class="subtitle">Ed Sheeran</div>`,
-            poster: "images/4.jpg"
-        },
-        {
-            id:5,
-            songName: `Millionaire <br> 
-            <div class="subtitle">Yo Yo Honey Singh</div>`,
-            poster: "images/5.jpg"
-        },
-        {
-            id:6,
-            songName: `O Maahi<br> 
-                                <div class="subtitle">Pritam, Arijit Singh, Irshad Kamil</div>`,
-            poster: "images/6.jpg"
-        },
-        {
-            id:7,
-            songName: `Dilliwaali Girlfriend <br> 
-                                <div class="subtitle">Sunidhi Chauhan,Pritam,Arijit Singh</div>`,
-            poster: "images/7.jpg"
-        },
-        {
-            id:8,
-            songName: `Chaleya <br> 
-                                <div class="subtitle">Anirudh Ravichander, Arijit Singh, Shilpa Rao</div>`,
-            poster: "images/8.jpg"
-        },
-        {
-            id:9,
-            songName: `Sajna Ve Sajna<br> 
-                                <div class="subtitle">Sunidhi Chauhan,Divya Kumar</div>`,
-            poster: "images/9.jpg"
-        },
-        {
-            id:10,
-            songName: `Kesariya <br> 
-                                <div class="subtitle">Arijit Singh</div>`,
-            poster: "images/10.jpg"
-        },
+const songs=[
+    {
+        id:1,
+        songName: `Tum Hi Ho <br> 
+                            <div class="subtitle">Arijit Singh</div>`,
+        poster: "images/01.jpg",
+        audioSrc: "songs/1.mp3"
+    },
+    {
+        id:2,
+        songName: `Chikni Chameli
+                            <br> 
+                            <div class="subtitle">Shreya Ghoshal</div>`,
+        poster: "images/02.jpg",
+        audioSrc: "songs/2.mp3"
         
-        {
-            id:11,
-            songName: `Deva Deva<br> 
-            <div class="subtitle">Arijit Singh and Jonita Gandhi</div>`,
-            poster: "images/11.jpg"
-        },
-        {
-            id:12,
-            songName: `Naatu Naatu <br> 
-            <div class="subtitle">Rahul Sipligunj, Kaala Bhairava</div>`,
-            poster: "images/12.jpg"
-        },
-        {
-            id:13,
-            songName: `Leke Prabhu Ka Naam <br> 
-            <div class="subtitle">Pritam, Arijit Singh, Nikhita Gandhi, Amitabh Bhattacharya</div>`,
-            poster: "images/13.jpg"
-        },
-        {
-            id:14,
-            songName: `Taras - from Munjya <br>
-                                <div class="subtitle"> Jasmine Sandlas, Sachin–Jigar, Amitabh Bhattacharya</div>`,
-            poster: "images/14.jpg"
-        },
-        {
-            id:15,
-            songName: `Rangisari <br>
-            <div class="subtitle">Kanishk Seth, Kavita Seth</div>`,
-            poster: "images/15.jpg"
-        },
-        {
-            id:16,
-            songName: `Tu Hain Toh Main Hoon <br>
-            <div class="subtitle">Arijit Singh, Irshad Kamil</div>`,
-            poster: "images/16.jpg"
-        },
-        {
-            id:17,
-            songName: `Raanjhan <br>
-            <div class="subtitle">Sachet-Parampara and Parampara Tandon </div>`,
-            poster: "images/17.jpg"
-        },
-        {
-            id:18,
-            songName: `Millionaire <br>
-            <div class="subtitle">Yo Yo Honey Singh</div>`,
-            poster: "images/18.jpg"
-        },
-        {
-            id:19,
-            songName: `Raataan Lambiyan <br>
-            <div class="subtitle">Tanishk Bagchi, Jubin Nautiyal, and Asees Kaur </div>`,
-            poster: "images/19.jpg"
-        },
-        {
-            id:20,
-            songName: `Param Sundari <br>
-            <div class="subtitle">A.R. Rahman, Shreya Ghoshal </div>`,
-            poster: "images/20.jpg"
-        },
-        {
-            id:21,
-            songName: `Shanivaar Raati <br>
-                                    <div class="subtitle">Sajid-Wajid, Arijit Singh, Shalmali</div>`,
-            poster: "images/21.jpg"
-        },
-        {
-            id:22,
-            songName: `Aaj Ki Raat <br>
-            <div class="subtitle">Amitabh Bhattacharya, Sachin-Jigar</div>`,
-            poster: "images/22.jpg"
-        },
-        {
-            id:23,
-            songName: `Ishq Hai <br> 
-            <div class="subtitle">Anurag Saikia</div>`,
-            poster: "images/23.jpg"
-        },
-        {
-            id:24,
-            songName: `Pehle Bhi Main<br> 
-            <div class="subtitle">Vishal Mishra, Raj Shekhar</div>`,
-            poster: "images/24.jpg"
-        },
+    },
+    {
+        id:3,
+        songName: `Alone <br> 
+                            <div class="subtitle">Alan Walker</div>`,
+        poster: "images/03.jpg",
+        audioSrc: "songs/3.mp3"
+    },
+    {
+        id:4,
+        songName: `Shape of You <br> 
+                            <div class="subtitle">Ed Sheeran</div>`,
+        poster: "images/04.jpg",
+        audioSrc: "songs/4.mp3"
+    },
+    {
+        id:5,
+        songName: `Millionaire <br> 
+        <div class="subtitle">Yo Yo Honey Singh</div>`,
+        poster: "images/05.jpg",
+        audioSrc: "songs/5.mp3"
+    },
+    {
+        id:6,
+        songName: `O Maahi<br> 
+                            <div class="subtitle">Pritam, Arijit Singh, Irshad Kamil</div>`,
+        poster: "images/06.jpg",
+        audioSrc: "songs/6.mp3"
+    },
+    {
+        id:7,
+        songName: `Dilliwaali Girlfriend <br> 
+                            <div class="subtitle">Sunidhi Chauhan,Pritam,Arijit Singh</div>`,
+        poster: "images/07.jpg",
+        audioSrc :"songs/7.mp3"
+    },
+    {
+        id:8,
+        songName: `Chaleya <br> 
+                            <div class="subtitle">Anirudh Ravichander, Arijit Singh, Shilpa Rao</div>`,
+        poster: "images/08.jpg",
+        audioSrc: "songs/8.mp3"
+    },
+    {
+        id:9,
+        songName: `Sajna Ve Sajna<br> 
+                            <div class="subtitle">Sunidhi Chauhan,Divya Kumar</div>`,
+        poster: "images/09.jpg",
+        audioSrc: "songs/9.mp3"
+    },
+    {
+        id:10,
+        songName: `Kesariya <br> 
+                            <div class="subtitle">Arijit Singh</div>`,
+        poster: "images/10.jpg",
+        audioSrc: "songs/10.mp3"
+    },
+    
+    {
+        id:11,
+        songName: `Deva Deva<br> 
+        <div class="subtitle">Arijit Singh and Jonita Gandhi</div>`,
+        poster: "images/11.jpg",
+        audioSrc: "songs/11.mp3"
+    },
+    {
+        id:12,
+        songName: `Naatu Naatu <br> 
+        <div class="subtitle">Rahul Sipligunj, Kaala Bhairava</div>`,
+        poster: "images/12.jpg",
+        audioSrc: "songs/12.mp3"
+    },
+    {
+        id:13,
+        songName: `Leke Prabhu Ka Naam <br> 
+        <div class="subtitle">Pritam, Arijit Singh, Nikhita Gandhi, Amitabh Bhattacharya</div>`,
+        poster: "images/13.jpg",
+        audioSrc: "songs/13.mp3"
+    },
+    {
+        id:14,
+        songName: `Taras - from Munjya <br>
+                            <div class="subtitle"> Jasmine Sandlas, Sachin–Jigar, Amitabh Bhattacharya</div>`,
+        poster: "images/14.jpg",
+        audioSrc: "songs/14.mp3"
+    },
+    {
+        id:15,
+        songName: `Rangisari <br>
+        <div class="subtitle">Kanishk Seth, Kavita Seth</div>`,
+        poster: "images/15.jpg",
+        audioSrc: "songs/15.mp3"
+    },
+    {
+        id:16,
+        songName: `Tu Hain Toh Main Hoon <br>
+        <div class="subtitle">Arijit Singh, Irshad Kamil</div>`,
+        poster: "images/16.jpg",
+        audioSrc: "songs/16.mp3"
+    },
+    {
+        id:17,
+        songName: `Raanjhan <br>
+        <div class="subtitle">Sachet-Parampara and Parampara Tandon </div>`,
+        poster: "images/17.jpg",
+        audioSrc: "songs/17.mp3"
+    },
+    {
+        id:18,
+        songName: `Millionaire <br>
+        <div class="subtitle">Yo Yo Honey Singh</div>`,
+        poster: "images/18.jpg",
+        audioSrc: "songs/18.mp3"
+    },
+    {
+        id:19,
+        songName: `Raataan Lambiyan <br>
+        <div class="subtitle">Tanishk Bagchi, Jubin Nautiyal, and Asees Kaur </div>`,
+        poster: "images/19.jpg",
+        audioSrc: "songs/19.mp3"
+    },
+    {
+        id:20,
+        songName: `Param Sundari <br>
+        <div class="subtitle">A.R. Rahman, Shreya Ghoshal </div>`,
+        poster: "images/20.jpg",
+        audioSrc: "songs/20.mp3"
+    },
+    {
+        id:21,
+        songName: `Shanivaar Raati <br>
+                                <div class="subtitle">Sajid-Wajid, Arijit Singh, Shalmali</div>`,
+        poster: "images/21.jpg",
+        audioSrc: "songs/21.mp3"
+    },
+    {
+        id:22,
+        songName: `Aaj Ki Raat <br>
+        <div class="subtitle">Amitabh Bhattacharya, Sachin-Jigar</div>`,
+        poster: "images/22.jpg",
+        audioSrc: "songs/22.mp3"
+    },
+    {
+        id:23,
+        songName: `Ishq Hai <br> 
+        <div class="subtitle">Anurag Saikia</div>`,
+        poster: "images/23.jpg",
+        audioSrc: "songs/23.mp3"
         
-    ]
+    },
+    {
+        id:24,
+        songName: `Pehle Bhi Main<br> 
+        <div class="subtitle">Vishal Mishra, Raj Shekhar</div>`,
+        poster: "images/24.jpg",
+        audioSrc: "songs/24.mp3"
+    },
+    
+]
     Array.from(document.getElementsByClassName('songItem')).forEach((e, i) =>{
         e.getElementsByTagName('img')[0].src=songs[i].poster
         e.getElementsByTagName('h5')[0].innerHTML=songs[i].songName
@@ -494,67 +520,117 @@ function glory(){
     window.location.href="glory.html"
 }
 
-let search_result = document.querySelector('.search_result');
 
-if (!search_result) {
-    console.error("❌ Error: '.search_result' container not found in the DOM!");
-} else {
-    console.log("✅ search_result found:", search_result);
-}
+// Query the needed DOM elements
+let search_result       = document.querySelector('.search_result');
+let input               = document.querySelector('.search input[type="text"]');
+let audiooPlayer        = document.getElementById('audioPlayer');
+let posterr_master_play = document.getElementById('poster_master_play');
+let title_master_play   = document.getElementById('title');
+let wave1               = document.getElementById('wave');
+let download_music      = document.getElementById('download_music');
+let masterrPlay          = document.getElementById('masterPlay');
 
-// Check if the songs array is available and populated
-if (!Array.isArray(songs) || songs.length === 0) {
-    console.error("❌ Error: 'songs' array is empty or not defined!");
-} else {
-    console.log("✅ songs array:", songs);
-}
+// Build initial list of results (cards)
+function buildSearchResults() {
+  // Clear any existing
+  search_result.innerHTML = "";
 
-// Clear previous search results
-search_result.innerHTML = "";
+  songs.forEach(song => {
+    const { id, songName, subtitle, poster, audioSrc } = song;
 
-songs.forEach(element => {
-    const { id, songName, poster } = element;
-
+    // Create the card as an <a> (clickable)
     let card = document.createElement('a');
     card.classList.add('card');
-    card.href = "#" +id; // Make it clickable
+    card.href = "#" + id; // optional anchor link
 
-    // Assuming `poster` already contains the correct path (e.g., "images/song1.jpg")
     card.innerHTML = `
-        <img src="${poster}" alt="Song Poster">
-        <div class="content">
-            ${songName}
-        </div>
+      <img src="${poster}" alt="Song Poster">
+      <div class="content">
+        ${songName}
+        <div class="subititle">${subtitle}</div>
+      </div>
     `;
 
+    // On click, load song into "master play" UI & play
+    card.addEventListener('click', (event) => {
+      event.preventDefault();
+
+      // Set audio source + play
+      audiooPlayer.src = audioSrc;
+      audiooPlayer.play();
+
+      // Update poster and title
+      posterr_master_play.src = poster;
+      title_master_play.innerHTML = `
+        ${songName}
+        <div class="subtitle">${subtitle}</div>
+      `;
+
+      // Update download link (optional)
+      download_music.setAttribute('href', audioSrc);
+      download_music.setAttribute('download', songName);
+
+      // Hide the search results (optional)
+      search_result.style.display = 'none';
+    });
+
     search_result.appendChild(card);
+  });
+}
+
+// Call the function at page load
+buildSearchResults();
+
+// Filter results on each keystroke
+input.addEventListener('keyup', () => {
+  let query = input.value.toUpperCase().trim();
+
+  if (query.length === 0) {
+    // Hide list if empty
+    search_result.style.display = "none";
+    return;
+  } else {
+    // Show list if there's a query
+    search_result.style.display = "block";
+  }
+
+  // Filter each card by songName
+  let items = search_result.getElementsByClassName('card');
+  for (let i = 0; i < items.length; i++) {
+    let contentDiv = items[i].querySelector('.content');
+    let textValue = contentDiv.textContent || contentDiv.innerText;
+    if (textValue.toUpperCase().indexOf(query) > -1) {
+      items[i].style.display = 'flex';
+    } else {
+      items[i].style.display = 'none';
+    }
+  }
 });
 
-console.log("✅ Songs added to search_result!");
+// 1) Toggle audio state when masterPlay is clicked
+masterrPlay.addEventListener('click', () => {
+  if (audiooPlayer.paused || audiooPlayer.currentTime <= 0) {
+    audiooPlayer.play();
+  } else {
+    audiooPlayer.pause();
+  }
+});
 
-let input = document.getElementsByTagName('input')[0];
+// 2) Update icon and wave animation on audio "play" event
+audiooPlayer.addEventListener('play', () => {
+  
+  masterrPlay.classList.remove('bi-play-circle-fill');
+  masterrPlay.classList.add('bi-pause-circle-fill');
+  
+  wave1.classList.add('active1');
+});
 
-input.addEventListener('keyup', () => {
-    let input_value = input.value.toUpperCase();
-    let items = search_result.getElementsByTagName('a');
-    search_result.style.display = "block";
-    search_result.style.visibility = "visible";
-    search_result.style.opacity = "1";
-    for (let index = 0; index < items.length; index++) {
-        let as = items[index].getElementsByClassName('content')[0];
-        let text_value = as.textContent || as.innerHTML;
-
-        if (text_value.toUpperCase().indexOf(input_value) > -1) {
-            search_result.style.display = 'flex';
-            items[index].style.display = 'flex'; 
-        } else {
-            items[index].style.display = 'none';
-        }
-        if (input.value==0) {
-            search_result.style.display="none";
-             
-        } else {
-             search_result.style.display="";
-        }
-    }
+// 3) Update icon and wave animation on audio "pause" event
+audiooPlayer.addEventListener('pause', () => {
+  
+  masterrPlay.classList.add('bi-play-circle-fill');
+  masterrPlay.classList.remove('bi-pause-circle-fill');
+  
+  wave1.classList.remove('active1');
 });
