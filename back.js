@@ -1,6 +1,6 @@
-// -------------------------
+
 // SONGS ARRAY
-// -------------------------
+
 const songs = [
   {
     id: 1,
@@ -582,6 +582,7 @@ input.addEventListener('keyup', () => {
   }
 });
 
+// Update master play/pause icons when the audio element plays or pauses
 audioPlayer.addEventListener('play', () => {
   masterPlay.classList.remove('bi-play-circle-fill');
   masterPlay.classList.add('bi-pause-circle-fill');
