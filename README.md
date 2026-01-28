@@ -65,6 +65,7 @@ The project focuses on **secure authentication**, **data-driven insights**, and 
 ## 📈 Highlights
 
 - Implemented **end-to-end authentication flow** with secure recovery
+- Implemented OAuth login (Google)
 - Integrated **machine learning recommendations** into a web platform
 - Combined **PHP backend** with **Python-based AI models**
 - Designed a scalable structure for future feature expansion
